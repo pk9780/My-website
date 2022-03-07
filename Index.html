@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&family=Merriweather:wght@400;700;900&family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <button class="nav-toggle nav-open" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro" id="name">
+          <strong>Prabhakaran Kannan</strong>
+        </h1>
+       <!--  <p class="section__subtitle section__subtitle--intro">
+          Materials Engineer and Front End Developer
+        </p>
+        -->
+        <div class="logo">
+         <!--  <img
+            src="img/top-image.jpg"
+            alt="picture of a maze"
+            class="intro__img"
+          />-->
+        </div>
+    </section>
+     
+
+    <!-- My services-->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--intro"></h2>
+      <div class="services">
+        <div class="service">
+          <h3>Polymer and Composites</h3>
+          <p>
+            Everyday we use different plastics in various forms and size, within our household and work environment. I have been working in plastics (polymer) industry for a good 10 years, helping to design, develop and improve products that are used in packaging, telecommunications and electrical applications. 
+          </p>
+        </div>
+        <div class="service">
+          <h3>Cable Insulation</h3>
+          <p>
+            Electrical wires in household and office are something we dont see everyday but we are surrounded by them. Copper is used as conductor in these wires which are surrounded by insulating polymers as a jacket. These jackets vary in their characteristics based on where these cables are used for installation. I have developed and improved insulations that are used for domestic and commercial wiring application.
+          </p>
+        </div>
+        <div class="service">
+          <h3>Optical fibre coatings</h3>
+          <p>
+            Similar to electrical wires, fibre optics drives our internet and telecommunication network around the globe. These fibres are glass strands which are fragile and need external polymer coatings for commercial applications. These special coatings are sometimes custom made to suit specific fibres and applications. I have worked with commercial coatings manufacturers to meet specific needs of these fibres.
+          </p>
+        </div>
+      </div>
+      <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!--  About Me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title==about">About Me</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Material Engineer and Front End Developer
+      </p>
+
+      <div class="about-me__body">
+        <p>
+          Materials engineering has been my passion for the last 10 years, to learn and understand the needs and provide a viable solution
+        </p>
+        <p>Keen to learn new technologies, web development and data driven content has always fascinated me.
+        </p>
+      </div>
+      <img src="img/sunrise.jpg" alt="Lost in the maze" class="about-me__img" />
+    </section>
+
+    <!-- My work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title">My work</h2>
+      <p class="section__subtitle" class="section__subtitle--work">
+        A selection of my work
+      </p>
+
+      <div class="portfolio">
+        <a href="#" class="portfolio__item">
+          <img
+            src="img/fibre-optic-coatings.jpg"
+            alt=""
+            class="portfolio_img"
+          />
+        </a>
+
+        <a href="https://www.cable-insulation.com" class="portfolio__item">
+          <img src="img/cable-wires.jpg" alt="" class="portfolio_img" />
+        </a>
+        <!--
+        <a href="#" class="portfolio__item">
+          <img src="img/cable-reels.jpg" alt="" class="portfolio_img" />
+        </a>
+
+        <a href="#" class="portfolio__item">
+          <img src="img/injection-moulding.jpg" alt="" class="portfolio_img" />
+        </a>
+        -->
+        <a href="https://www.cable-insulation.com" class="portfolio__item">
+          <img src="img/extruded-profiles.jpg" alt="" class="portfolio_img" />
+        </a>
+
+        <a href="https://www.mazelinks.com" class="portfolio__item">
+          <img src="img/computer-img.jpg" alt="" class="portfolio_img" />
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer-->
+    <footer class="footer">
+      
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="footer footer__link" href="prabhakaran.k@gmail.com"><i class="far fa-envelope"></i></a>
+        </li>
+        <li class="social-list__item">
+          <a class="footer footer__link" href="http://www.cable-insulation.com"
+            ><i class="fas fa-external-link-square-alt"></i></a
+          ></li>
+        <li class="social-list__item">
+          <a class="footer footer__link" href="https://codepen.io">
+            <i class="fab fa-codepen"></i
+          ></a></li>
+        <li class="social-list__item">
+          <a class="footer footer__link" href="https://github.com">
+            <i class="fab fa-github"></i
+          ></a></li>
+      </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
